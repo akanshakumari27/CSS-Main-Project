@@ -10,18 +10,58 @@ body{
     height: 100vh;
 }
 .sidebar{
-    background-color: red;
-    width: 380px;
+    width: 23.75rem;
+    border-radius: 1rem;
+    background-color: #000;
 }
 .main_content{
-    background-color: yellowgreen;
-    flex: auto;
+    flex: 1;
     overflow: auto;
+    border-radius: 1rem;
+    background-color: #121212;
 }
 .music_player{
-    background-color: blue;
-    position: absolute;
+    background-color: black;
+    position: fixed;
     bottom: 0px;
-    height: 72px;
+    height: 4.5rem;
     width: 100%;
+}
+.nav{
+    background-color: #121212;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /*as arranged in column, will centered in column, top and bottom same hight*/
+    height: 7rem;
+    padding:0.5rem 0.75rem;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.nav-option{
+    line-height: 2.5rem;
+    opacity:0.70;
+    padding: 0.5rem 0.75rem;
+}
+.nav-option:hover{
+    opacity: 1;
+}
+.nav-option i{
+    font-size: 1.25rem;
+}
+.nav-option a{
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+.library{
+    background-color: #121212;
+    border-radius: 1rem;
+}
+.options{
+    display: flex;
+}
+.library-options img{
+    height: 1.25rem;
 }
