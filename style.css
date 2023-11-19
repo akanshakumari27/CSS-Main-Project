@@ -21,6 +21,7 @@ body{
     overflow: auto;
     border-radius: 1rem;
     background-color: #121212;
+    padding: 0 1.5rem 0 1.5rem;
 }
 .music_player{
     background-color: black;
@@ -131,6 +132,8 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0 1rem 0;
+    background-color: #121212;
+    z-index: 10;
 }
 .sticky-nav-icons img{
     margin-left: 1rem;
@@ -148,3 +151,54 @@ a {
         display: none;
     }
 }
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: #232323;
+    padding: 1rem;
+    justify-content: space-around;
+    border-radius: .5rem;
+    width: 9.5rem;
+    margin-left: 3rem;
+}
+.card-img{
+    border-radius: .5rem;
+    width: 100%;
+}
+.card-title{
+    font-weight: 700;
+}
+.card-info{
+    font-size: .85rem;
+    opacity:0.8;
+}
+h2{
+    margin-left: 1.75rem;
+}
+.album_pic{
+    /* margin-top: 5%; */
+    height: 60px;
+    border-radius: 10%;
+}
+.album{
+    display: flex;
+    align-items: center;
+}
+.control{
+    display: flex;
+    align-items: center;
+    margin-right: 6%;
+}
+.control i{
+    padding: 4%;
+}
+.music_player{
+    display: flex;
+    justify-content: space-between;
+}
+.player_controls img{
+    height: 15px;
+}
+
