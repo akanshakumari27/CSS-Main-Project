@@ -203,9 +203,13 @@ h2{
 }
 .player_controls{
     position: relative;
-    top: 10px;
+    top: 17px;
     left: 150px;
 }
 .player_controls img{
     padding: 0px 10px;
+}
+.playback_bar input{
+    position: relative;
+    top: 10px;
 }
