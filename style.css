@@ -201,4 +201,11 @@ h2{
 .player_controls img{
     height: 15px;
 }
-
+.player_controls{
+    position: relative;
+    top: 10px;
+    left: 150px;
+}
+.player_controls img{
+    padding: 0px 10px;
+}
